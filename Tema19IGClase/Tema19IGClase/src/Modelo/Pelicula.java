@@ -11,6 +11,8 @@ package Modelo;
 public class Pelicula {
     private String titulo,director;
     private int publicacion;
+private int año;
+
 
     public Pelicula(String titulo, String director, int publicacion) {
         this.titulo = titulo;
